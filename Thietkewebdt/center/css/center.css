@@ -1,0 +1,321 @@
+
+body {
+    background: #f2f2f2
+}
+
+.section-three .inner-title .inner-type span {
+    color: #000f8f;
+    font-weight: 600;
+}
+
+.section-three .inner-title {
+    margin-top: 20px;
+}
+
+.section-three .main .title {
+    margin: -10px 0px 20px 10px;
+}
+
+.list-image img {
+    height: 80px;
+    margin: 20px 0px 40px;
+    border-radius: 5px;
+}
+
+.section-three .image .inner-image img {
+    width: 400px;
+    height: 400px;
+    margin: 20px 0px 0px 50px;
+    border-radius: 5px;
+}
+
+
+.dl-button,
+.mau-button {
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 30%;
+    margin: 5px 5px;
+    height: 50px;
+    font-size: 16px;
+    justify-content: center;
+    background-color: #fff;
+}
+
+.active-button , .active-image{
+    border: 1px solid #f3bd01;
+}
+
+.input-num {
+    display: flex;
+    background-color: #fff;
+    margin: 0;
+    width: auto;
+    float: left;
+    border: 1px solid #000f8f;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.input-num button {
+    font-size: 20px;
+    width: 35px;
+    background-color: #000f8f;
+    border-radius: 5px;
+    text-align: center;
+    color: #fff;
+    line-height: 0px;
+    border: 0;
+
+}
+
+.mau button {
+    width: 20%;
+}
+
+
+.input-num input {
+    width: 40px;
+    height: 35px;
+    border: 0;
+}
+
+.inner-type,
+.gia p,
+.mau p,
+.dat p,
+.dl p {
+    margin-left: 10px;
+}
+
+.gh button {
+    color: #fff;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    background: #f3bd01;
+    text-align: center;
+    border: 0;
+    margin: 10px 0 0;
+    transition: transform 0.2s ease-out;
+}
+
+.mua button,
+.lhe button {
+    color: #fff;
+    width: 100%;
+    align-items: center;
+    border-radius: 5px;
+    background: #000f8f;
+    text-align: center;
+    margin: 10px 0 0;
+    border: 0;
+    height: 50px;
+    transition: transform 0.2s ease-out;
+}
+
+.mua button:hover,
+.lhe button:hover,
+.gh button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.center1,
+.center2,
+.center3,
+.center4,
+.inner-boxs {
+    border: 1px solid #fffafb;
+    border-radius: 5px;
+    margin: 20px 0;
+    box-shadow: 0 0px 2px 0 rgba(60, 64, 67, 0.1), 0 0px 6px 0px rgba(60, 64, 67, 0.25);
+
+}
+
+.main {
+    border-bottom: 1px outset;
+}
+
+.ttkt,
+.uud {
+    border: solid 1px #f3bd01;
+    margin: 20px 0;
+    border-radius: 5px;
+}
+
+.mtsp {
+    margin: 10px 0 70px;
+    border-radius: 5px;
+}
+
+.ttkt .title-tt,
+.uud h5,
+.mtsp h5 {
+    margin: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #f3bd01;
+    font-weight: 500;
+    color: #fff;
+    height: 30px;
+    align-items: center;
+}
+
+.center4 h4 {
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #f3bd01;
+    font-weight: 500;
+    color: #fff;
+    height: 30px;
+}
+
+
+.uud p,
+.mtsp p {
+    max-width: 100%;
+    font-size: 13px;
+    line-height: 22px;
+    margin: 10px 0 20px 20px;
+}
+
+.table-tt {
+    overflow-y: auto;
+    width:500px;
+    max-height: 250px; /* set a fixed height for the scrollbar */
+    padding: 10px;
+    margin: 10px 0 20px 20px;
+
+}
+
+.table-tt table {
+    max-width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+    line-height: 22px;
+   
+}
+
+.table-tt th, .table-tt td {
+    width: 40%;
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.center3 .mtsp .tdmt {
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.center1 .image {
+    position: sticky;
+    top: 10px;
+}
+/* .section-one{
+    position: sticky;
+    top: 1px;
+} */
+.center4 .inner-boxs .inner-image img{
+    width: 140px;
+    height: 140px;
+    margin: 10px 0 0 50px;
+}
+
+.center4 .inner-grap.inner-boxs img {
+    margin: 10px ;
+}
+
+.inner-boxs {
+    margin: 10px 0 30px 30px;
+}
+
+.hidden {
+    display: none;
+}
+
+.hien-antt {
+    position: absolute;
+    left: 45%;
+    border: 1px solid #f3bd01;
+    border-radius: 5px;
+    color: #f3bd01;
+}
+
+.button-next .prev {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 20px !important;
+    border-radius: 0 50% 50% 0;
+    border: none;
+}
+
+.button-next .next {
+    position: absolute;
+    top: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    right: 20px !important;
+    border-radius: 50% 0 0 50%;
+    border: none;
+}
+
+.button-next button {
+    width: 40px;
+    height: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 0 5px;
+    border: 1px solid #000;
+    transition: 0.3s;
+}
+
+.button-next button:hover,
+.hien-antt:hover,
+.input-num button:hover {
+    background: #f3bd01;
+    color: #fff;
+}
+footer{
+    background-color: #fff;
+}
+.khung {
+    border-top: 1px solid #b7b6b5;
+    padding: 10px 0;
+    margin-top: 50px;
+}
+
+.f-one span, .sdt {
+    color: #f3bd01;
+}
+
+.lich{
+    color: #000;
+    font-weight: 100;
+    font-size: 12px;
+}
+.foo {
+    background-color: #f3bd01;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+
+footer h5, .logo{
+    margin: 10px 0 20px 0 ;
+    color: #f3bd01;
+    font-size: 16px;
+    
+}
+.icon i{
+    margin-right: 10px;
+    font-size: 20px;
+}
